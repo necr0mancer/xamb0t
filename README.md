@@ -2,6 +2,10 @@
 
 Twitch chat bot in node.js
 
+```
+npm init #init project
+```
+
 start with setting startxamb0t.sh to executable:
 
 ```bash
