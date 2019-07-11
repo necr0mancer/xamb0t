@@ -1,4 +1,4 @@
-#xamb0t, yo!
+# xamb0t, yo!
 
 Twitch chat bot in node.js
 
