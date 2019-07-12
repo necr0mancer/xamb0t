@@ -1,6 +1,6 @@
 # xamb0t, yo!
 
-Twitch chat bot in node.js
+Twitch chat bot in node.js, made just for fun for some friends
 
 ```
 npm init #init project
