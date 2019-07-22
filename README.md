@@ -3,7 +3,7 @@
 Twitch chat bot in node.js, made just for fun for some friends
 
 ```
-npm init #init project
+npm install #init project
 ```
 
 Also, need to update oauth file with proper oauth key and change file name:
