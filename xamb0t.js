@@ -73,7 +73,7 @@ client.on("chat", function (channel, userstate, message, self) {
 	// if (burrito) { deepthroat(); }
 	if (message == message.match(/.*burrito.*/i)) {
 	//if (message == "burrito") {
-		client.say(channel, "Deepthroat that thing, yo!");
+////		client.say(channel, "Deepthroat that thing, yo!");
 	}
 	if (message == "ayy") {
 		client.say(channel, "ayylmao FeelsGoodMan");
