@@ -11,20 +11,22 @@ var lastCommandUse = {};		// {object}  - unix timestamp of the last command usag
 
 var options = {
 	options: {
-		//debug: true
-		debug: false 
+		debug: true
+		//debug: false 
 	},
 	connection: {
-		cluster: "aws",
+//		cluster: "aws",
 		reconnect: true
 	},
 	identity: {
-		username: "xamb0t",
+		username: 'xamb0t',
 		password: oauth.password
+//    password: 'oauth:guofeoakct5m2s3pcs4vat0j1xjwwy'
 	},
 	// channels: ['#burritodeepthroat', '#g3tus', '#carnageraiser1', '#sidesplitters', '#oxqsednqc']
 	//channels: ['#burritodeepthroat']
 	channels: chans.chanlist
+  //channels: [ 'carnage_raiser', 'burritodeepthroat', 'oxqsednqc' ]
 };
 
 var client = new tmi.client(options);
